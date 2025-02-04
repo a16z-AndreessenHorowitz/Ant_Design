@@ -1,0 +1,180 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "email": "john.doe@example.com",
+            "role": "user",
+            "createdAt": "2024-05-23T08:56:21.618Z",
+            "updatedAt": "2024-05-23T08:56:21.618Z",
+            "meta": {
+                "bio": "Software Engineer",
+                "avatar": "https://example.com/avatar/john_doe.png"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Jane Smith",
+            "email": "jane.smith@example.com",
+            "role": "admin",
+            "createdAt": "2024-05-23T08:56:21.618Z",
+            "updatedAt": "2024-05-23T08:56:21.618Z",
+            "meta": {
+                "bio": "Product Manager",
+                "avatar": "https://example.com/avatar/jane_smith.png"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Alice Johnson",
+            "email": "alice.johnson@example.com",
+            "role": "moderator",
+            "createdAt": "2024-05-23T09:00:00.618Z",
+            "updatedAt": "2024-05-23T09:00:00.618Z",
+            "meta": {
+                "bio": "AI Researcher",
+                "avatar": "https://example.com/avatar/alice_johnson.png"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Bob Williams",
+            "email": "bob.williams@example.com",
+            "role": "user",
+            "createdAt": "2024-05-23T09:10:00.618Z",
+            "updatedAt": "2024-05-23T09:10:00.618Z",
+            "meta": {
+                "bio": "Cybersecurity Specialist",
+                "avatar": "https://example.com/avatar/bob_williams.png"
+            }
+        },
+        {
+            "id": 5,
+            "name": "Charlie Brown",
+            "email": "charlie.brown@example.com",
+            "role": "admin",
+            "createdAt": "2024-05-23T09:20:00.618Z",
+            "updatedAt": "2024-05-23T09:20:00.618Z",
+            "meta": {
+                "bio": "Blockchain Developer",
+                "avatar": "https://example.com/avatar/charlie_brown.png"
+            }
+        }
+    ],
+
+    "topics": [
+        {
+            "id": 1,
+            "title": "Technology",
+            "description": "Discussions about the latest in technology.",
+            "createdAt": "2024-05-23T08:56:21.618Z",
+            "updatedAt": "2024-05-23T08:56:21.618Z",
+            "meta": {
+                "tags": ["tech", "innovation"]
+            }
+        },
+        {
+            "id": 2,
+            "title": "Science",
+            "description": "Explore the wonders of science.",
+            "createdAt": "2024-05-23T08:56:21.618Z",
+            "updatedAt": "2024-05-23T08:56:21.618Z",
+            "meta": {
+                "tags": ["science", "discovery"]
+            }
+        },
+        {
+            "id": 3,
+            "title": "Mathematics",
+            "description": "Discuss complex math problems and theories.",
+            "createdAt": "2024-05-23T09:10:21.618Z",
+            "updatedAt": "2024-05-23T09:10:21.618Z",
+            "meta": {
+                "tags": ["math", "algebra"]
+            }
+        },
+        {
+            "id": 4,
+            "title": "Cybersecurity",
+            "description": "Protecting digital systems and data.",
+            "createdAt": "2024-05-23T09:30:21.618Z",
+            "updatedAt": "2024-05-23T09:30:21.618Z",
+            "meta": {
+                "tags": ["security", "hacking"]
+            }
+        },
+        {
+            "id": 5,
+            "title": "Blockchain",
+            "description": "Discussions on decentralized technologies.",
+            "createdAt": "2024-05-23T09:40:21.618Z",
+            "updatedAt": "2024-05-23T09:40:21.618Z",
+            "meta": {
+                "tags": ["crypto", "decentralization"]
+            }
+        }
+    ],
+
+    "questions": [
+        {
+            "id": 1,
+            "topicId": 1,
+            "userId": 1,
+            "title": "What is Node.js?",
+            "content": "I want to know more about Node.js.",
+            "createdAt": "2024-05-23T08:56:21.618Z",
+            "updatedAt": "2024-05-23T08:56:21.618Z",
+            "meta": {
+                "tags": ["nodejs", "javascript"]
+            }
+        },
+        {
+            "id": 2,
+            "topicId": 2,
+            "userId": 2,
+            "title": "What is Quantum Physics?",
+            "content": "Can someone explain Quantum Physics?",
+            "createdAt": "2024-05-23T08:56:21.618Z",
+            "updatedAt": "2024-05-23T08:56:21.618Z",
+            "meta": {
+                "tags": ["physics", "quantum"]
+            }
+        },
+        {
+            "id": 3,
+            "topicId": 3,
+            "userId": 3,
+            "title": "How does calculus help in AI?",
+            "content": "I'm curious about the applications of calculus in AI and machine learning.",
+            "createdAt": "2024-05-23T09:15:21.618Z",
+            "updatedAt": "2024-05-23T09:15:21.618Z",
+            "meta": {
+                "tags": ["calculus", "AI"]
+            }
+        },
+        {
+            "id": 4,
+            "topicId": 4,
+            "userId": 4,
+            "title": "How do hackers exploit security flaws?",
+            "content": "I want to understand common cybersecurity vulnerabilities.",
+            "createdAt": "2024-05-23T09:45:21.618Z",
+            "updatedAt": "2024-05-23T09:45:21.618Z",
+            "meta": {
+                "tags": ["security", "hacking"]
+            }
+        },
+        {
+            "id": 5,
+            "topicId": 5,
+            "userId": 5,
+            "title": "How does blockchain ensure security?",
+            "content": "I need an explanation of blockchain security.",
+            "createdAt": "2024-05-23T09:55:21.618Z",
+            "updatedAt": "2024-05-23T09:55:21.618Z",
+            "meta": {
+                "tags": ["crypto", "blockchain"]
+            }
+        }
+    ]
+}
